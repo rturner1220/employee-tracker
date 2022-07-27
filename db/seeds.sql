@@ -1,4 +1,3 @@
-
 INSERT INTO department
   (name)
 VALUES
@@ -19,16 +18,17 @@ VALUES
   ('HR Manager', '60000', '4'),
   ('HR Coordinator', '30000', '4');
   
-INSERT INTO employees 
+INSERT INTO employee
   (first_name, last_name, role_id, manager_id)
 VALUES
   ('Michael', 'Smith', 1, NULL),
-  ('Amanda', 'White', 2, 0),
   ('Piers', 'Rains', 3, NULL),
-  ('Austin', 'Ogburn', 4, 0),
+  ('Edward', 'Bellamy', 6, NULL),
+  ('Amanda', 'White', 2, 1),
+  ('Austin', 'Ogburn', 4, 1),
   ('Katherine', 'Giler', 4, 2),
   ('Monica', 'Carrington', 5, 2),
-  ('Edward', 'Bellamy', 6, NULL),
-  ('Isabella', 'Savre', 5, 0),
-  ('Octavia', 'Butler', 7, 6),
-  ('Peters', 'Zurn', 8, 6);
+  ('Isabella', 'Savre', 5, 2),
+  ('Octavia', 'Butler', 7, 3),
+  ('Peters', 'Zurn', 8, 3);
+
