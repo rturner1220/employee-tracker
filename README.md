@@ -24,6 +24,12 @@ View, manage and add the departments, roles and employees of a company.
 * WHEN I choose to update an employee role
     - THEN I am prompted to select an employee to update and their new role and this information is updated in the database
 
+# Screenshots
+
+![screenshot1](https://user-images.githubusercontent.com/101642385/181297898-ebcbbc0c-39c9-4e6d-96af-af5df3a29e91.png)
+![screenshot2](https://user-images.githubusercontent.com/101642385/181297965-88987556-1ef9-4185-9b7f-7da708004284.png)
+![screenshot3](https://user-images.githubusercontent.com/101642385/181298008-da53ba30-19bc-44b6-bab5-a863a42cbf9a.png)
+
 # Technologies Use:
 * Node.js
 * NPM
